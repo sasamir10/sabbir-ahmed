@@ -215,20 +215,6 @@ header{
     width: 100%;
 }
 
-.home-imgHover{
-    position: absolute;
-    top: 0;
-    right: 50px;
-    width: 680px;
-    height: 100%;
-    background: transparent;
-    transition: 3s;
-}
-
-.home-imgHover:hover{
-    background: #092030;
-    opacity: 0.7;
-}
 
 /*  keyframes animation */
 @keyframes showRight {
@@ -236,6 +222,7 @@ header{
         width: 0;
     }
 }
+
 
 /* responsive */
 @media (max-width: 480px) {
@@ -256,7 +243,7 @@ header{
     }
 
     .home{
-        background: url('resources/home-mobile.png');
+        background-image: url('resources/home-mobile.png');
         background-size: cover;
         background-position: center;
         padding: 0 5%;
@@ -290,4 +277,3 @@ header{
         bottom: 0;
     }
 }
-
