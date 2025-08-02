@@ -256,7 +256,7 @@ header{
     }
 
     .home{
-        background-image: url('resources/home-mobile.png');
+        background: url('resources/home-mobile.png');
         background-size: cover;
         background-position: center;
         padding: 0 5%;
@@ -290,3 +290,4 @@ header{
         bottom: 0;
     }
 }
+
