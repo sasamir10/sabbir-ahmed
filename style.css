@@ -247,10 +247,6 @@ header{
         padding: 0 5%;
     }
 
-    .home-content{
-        margin-top: 10%;
-    }
-
     .home-content h1{
         font-size: 3rem;
     }
@@ -275,3 +271,4 @@ header{
         bottom: 0;
     }
 }
+
