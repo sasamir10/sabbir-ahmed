@@ -214,7 +214,6 @@ header{
     width: 100%;
 }
 
-
 /*  keyframes animation */
 @keyframes showRight {
     100%{
@@ -222,8 +221,7 @@ header{
     }
 }
 
-
-/* responsive */
+/* responsive design */
 @media (max-width: 375px) {
     html{
         font-size: 75%;
@@ -270,5 +268,3 @@ header{
         bottom: 0;
     }
 }
-
-
