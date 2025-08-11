@@ -54,7 +54,7 @@ header{
     position: relative;
 }
 
-/* navbar animation start */
+/* navbar animation */
 .navbar a::after {
   content: "";
   position: absolute;
@@ -73,7 +73,6 @@ header{
 .navbar a:hover::after {
   width: 100%;
 }
-/* navbar animation end */
 
 .home{
     height: 100vh;
@@ -225,7 +224,7 @@ header{
 
 
 /* responsive */
-@media (max-width: 480px) {
+@media (max-width: 375px) {
     html{
         font-size: 75%;
     }
@@ -271,4 +270,5 @@ header{
         bottom: 0;
     }
 }
+
 
